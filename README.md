@@ -2,7 +2,7 @@
 A simple demonstration of Kafka messaging system.
 
 ## Description
-A number provider that randomly generates a positive integer under 1000 and send to Kafka cluster.
+A number provider that randomly generates positive integers under 1000 and send to Kafka cluster.
 
 ## Usage
 - Start Zookeeper
