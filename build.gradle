@@ -3,8 +3,8 @@ apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
-sourceCompatibility = 1.12
-targetCompatibility = 1.12
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 mainClassName = 'vn.quang.KafkaMain'
 
 buildscript {
