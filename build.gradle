@@ -1,4 +1,4 @@
-group = 'gcr.io/kafkanumberprovider'
+group = 'gcr.io/spring-docker-kuber'
 
 apply plugin: 'java'
 apply plugin: 'application'
@@ -11,18 +11,18 @@ targetCompatibility = 1.8
 mainClassName = 'vn.quang.KafkaMain'
 
 bootJar {
-    baseName = 'provider'
+    baseName = 'producer'
     version =  '0.1.0'
 }
 
 buildscript {
     ext.spring = '2.1.4.RELEASE'
-    ext.kafkaClient = '2.1.0'
-	ext.springKafka = '2.2.5.RELEASE'
-	ext.gradleDocker = '0.22.1'
-	ext.jackson =  '2.9.8'
-	ext.slf4jVersion = '1.7.26'
-	ext.log4j = '2.11.2'
+    ext.kafkaClient = '2.2.0'
+    ext.springKafka = '2.2.5.RELEASE'
+    ext.gradleDocker = '0.22.1'
+    ext.jackson =  '2.9.8'
+    ext.slf4jVersion = '1.7.26'
+    ext.log4j = '2.11.2'
 	
     repositories {
         jcenter()
